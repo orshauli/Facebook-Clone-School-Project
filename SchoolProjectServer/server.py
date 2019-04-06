@@ -21,7 +21,7 @@ def send_notification(username, message_title, message_body):
 
     f.close()
     
-    API_KEY = "AIzaSyD0sTq0FYCD5rOkb4j-O6XQs3Hq3ucsGik"
+    API_KEY = ""
 
     push_service = FCMNotification(api_key=API_KEY)
 
